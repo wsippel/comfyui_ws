@@ -44,7 +44,7 @@ class SDXLResolutionPresets:
     RETURN_NAMES = ("width", "height", )
     FUNCTION = "get_value"
 
-    CATEGORY = "wsippel"
+    CATEGORY = "ws"
 
     def get_value(self, resolution, aspect, ):
         if resolution == "Cinematic (1536x640)":
@@ -77,5 +77,5 @@ NODE_CLASS_MAPPINGS = {
 # Human readable names for the nodes
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "SDXLResolutionPresets": "SDXL Resolution Presets (wsippel)",
+    "SDXLResolutionPresets": "SDXL Resolution Presets (ws)",
 }
